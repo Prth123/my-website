@@ -532,7 +532,8 @@ button:hover:after {
                         <img src="" loading="lazy" width="130" alt="" class="navbar-v2_logo"/>
                     </a>
                 </div>
-                <a href="https://creator.avataar.ai/login" target="_blank" class="button-4 navbar w-button">Get Started</a>
+                <a href="https://prth123.github.io/happy-lemon-portfolio/" class="button-4 navbar w-button" id="scrollButton">Portfolio</a>
+
                 <nav role="navigation" class="navbar-v2_menu w-nav-menu">
                     <div data-hover="true" data-delay="400" data-w-id="036c75cb-32b0-d8e2-b1b6-2e9db39c34ce" class="navbar-v2_dropdown w-dropdown">
                         <!-- <div class="navbar-v2_dropdown-toggle w-dropdown-toggle">
@@ -548,11 +549,7 @@ button:hover:after {
                             <a href="/bags" class="navbar-v2_dropdown-link w-dropdown-link">Bags &amp; Luggage</a>
                         </nav> -->
                     </div>
-                    <a href="https://prth123.github.io/happy-lemon-portfolio/" class="navbar-v2_dropdown-toggle link w-inline-block">
-                        <div class="text-block-25">
-                            <strong class="bold-text-25">Portfolio</strong>
-                        </div>
-                    </a>
+                   
                     <a href="https://prth123.github.io/happy-lemon-portfolio/start.html" class="navbar-v2_dropdown-toggle link w-inline-block">
                         <div class="text-block-25">
                             <strong class="bold-text-25">About</strong>
@@ -595,7 +592,23 @@ button:hover:after {
                             <a href="/contact" class="navbar-v2_dropdown-link w-dropdown-link">Contact us</a> -->
                         </nav>
                     </div>
-                    <a href="https://creator.avataar.ai/?&amp;utm_source=website&amp;utm_medium=cta&amp;utm_campaign=direct&amp;utm_id=142" target="_blank" class="navbar-v2_button w-button">Get Started</a>
+                    <div data-hover="true" data-delay="400" data-w-id="036c75cb-32b0-d8e2-b1b6-2e9db39c34e6" class="navbar-v2_dropdown w-dropdown">
+                        <div class="navbar-v2_dropdown-toggle w-dropdown-toggle">
+                            <div>Socials</div>
+                            <div class="navbar-v2_dropdown-arrow w-icon-dropdown-toggle"></div>
+                        </div>
+                        <nav class="navbar-v2_dropdown-list w-dropdown-list">
+                            <a href="https://www.linkedin.com/in/parthsingh2002/" class="navbar-v2_dropdown-link w-dropdown-link">LinkedIn</a>
+
+                            <a href="https://github.com/prth1234" class="navbar-v2_dropdown-link w-dropdown-link">GitHub</a>
+                            <a href="https://www.instagram.com/pxrthye/" class="navbar-v2_dropdown-link w-dropdown-link">Instagram</a>
+
+
+                            <!-- <a href="/careers" class="navbar-v2_dropdown-link w-dropdown-link">Careers</a>
+                            <a href="/contact" class="navbar-v2_dropdown-link w-dropdown-link">Contact us</a> -->
+                        </nav>
+                    </div>
+                    <a href="https://prth123.github.io/happy-lemon-portfolio/" target="_blank" class="navbar-v2_button w-button">Portfolio</a>
                 </nav>
                 <div class="navbar-v2_menu-button w-nav-button">
                     <div class="navbar-v2_icon">
@@ -989,7 +1002,8 @@ button:hover:after {
                     <video id="8700f849-a5af-e464-45bf-59386529d1b5-video" autoplay="" loop="" style="background-image:url(&quot;https://assets-global.website-files.com/63401dfb6edad1c1702f685c/64f8ac0c3eff441fa068e1a2_Fold 1_video 3_desktop_1-poster-00001.jpg&quot;)" muted="" playsinline="" data-wf-ignore="true" data-object-fit="cover">
                         <source src="https://v1.pinimg.com/videos/mc/720p/57/52/b3/5752b3ea40c44d90e2f35a280084539e.mp4" data-wf-ignore="true"/>
                         <source src="https://assets-global.website-files.com/63401dfb6edad1c1702f685c/64f8ac0c3eff441fa068e1a2_Fold 1_video 3_desktop_1-transcode.webm" data-wf-ignore="true"/>
-                    </video>
+                    
+                        </video>
                     <h1 class="heading-49 _2">Break beyond physical limitations</h1>
                     <div class="fold1_fade"></div>
                     <div class="fold1_fade down"></div>
@@ -1746,6 +1760,19 @@ rich, low code Loan Origination and Loan Management platform for Financial insti
 
     <!-- F’in sweet Webflow Hacks -->
     <script>
+        document.addEventListener("DOMContentLoaded", function() {
+    var scrollButton = document.getElementById("scrollButton");
+
+    scrollButton.addEventListener("click", function(event) {
+        event.preventDefault();
+
+        // Scroll down smoothly to the target section
+        document.querySelector('#scrollTarget').scrollIntoView({
+            behavior: 'smooth'
+        });
+    });
+});
+
     // when the DOM is ready
     document.addEventListener("DOMContentLoaded", function() {
         // get the the span element
