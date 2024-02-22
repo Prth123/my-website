@@ -1,6 +1,4 @@
-<p align="center">
-  <img src="<link_to_your_logo.png>" alt="Website Logo" width="200" height="200">
-</p>
+
 
 # My Website - Personal Portfolio Project
 
@@ -56,7 +54,7 @@ Welcome to my personal website repository - where creativity meets functionality
 
 ## 🌐 Live Demo
 
-Explore the live version of my website at [YourWebsiteURL.com](https://www.yourwebsiteurl.com).
+Explore the live version of my website at https://main--harmonious-cobbler-d6551f.netlify.app/
 
 ## 🤝 Contributing
 
